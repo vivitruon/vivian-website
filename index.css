@@ -41,6 +41,7 @@ footer {
 	font-size: 50px;
 	color: white;
 	float: left;
+	padding-bottom: 20px;
 }
 
 .zilla {
@@ -97,6 +98,11 @@ footer {
 }
 
 /*QUICK COMMANDS*/
+.social-media {
+	font-size: 50px;
+	color: white;
+	width: 60px;
+}
 .width {
 	width: 800px;
 }
@@ -122,6 +128,38 @@ footer {
 
 .holographic-gradient-semi {
 	background-image: linear-gradient(to bottom right, #cdf7fd, #cdedfd, #cde4fd, #cddafd, #cdcefd);
+}
+#about-image {
+	padding-top: 300px;
+	padding-left: 90px;
+	width: 65%;
+	height: 90%;
+}
+#about-desc {
+	padding-left: 90px;
+}
+.flexbox {
+	display: flex;
+}
+.flexbox {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.arrow1 {
+	color: var(--darkgray);
+}
+.arrow1:hover {
+	transform: scale(1.1);
+  animation-name: linkedin-icon;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+@keyframes arrow-icon {
+  100% {
+    background-color: #0077B5;
+    color: white;
+  }
 }
 /*NAVIGATION BAR*/
 .nav-container {

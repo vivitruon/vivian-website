@@ -2,74 +2,90 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Vivian Truong!</title>
-	<link rel="shortcut icon" type="image/png" href="vivitruon.png"/>
+	<link rel="shortcut icon" type="image/png" href="vivitruon2.png"/>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Merriweather+Sans:wght@300&family=Montserrat:wght@300;400&family=Mulish:wght@200&family=Unica+One&family=Zilla+Slab:wght@500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@400;500&family=Unica+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/bc58649c27.js" crossorigin="anonymous"></script>
-	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="index-2.css">
 </head>
-	<body>
+<body>
+	<div>
 		<div class="nav-container">
 			<nav class="navbar">
-				<h1 id="navbar-logo" class="rotate"><img  src="vivitruon.png" width="150" height="150" href="index.html"/></h1>
+				<h1 id="navbar-logo" class="rotate"><img  src="vivitruon2.png" width="150" height="150" href="index.html"/></h1>
 				<div class="menu-toggle" id="mobile-menu">
 					<span class="bar"></span>
 					<span class="bar"></span>
 					<span class="bar"></span>
 				</div>
 				<ul class="nav-menu">
-					<li><a href="about.html" class="nav-links">ABOUT</a></li>
 					<li><a href="#work" class="nav-links">WORK</a></li>
-					<li><a href="blog.html" class="nav-links">BLOG</a></li>
+					<li><a href="about.html" class="nav-links">ABOUT</a></li> 
 				</ul>
-			<script src="app.js"></script>
 			</nav>
 		</div>
-		<div class="border zilla">
-			vivian truong is a<br>high school student,<br>programmer,<br>ux design enthusiast.
-			<h3>Currently studying front-end Web Development and UX design.</h3>
-			<a href="#work"><i class="fas fa-caret-down" id="arrow"></i></a>
+		<script src="app.js"></script>
+	</div>
+	<div class="elipse-1"></div>
+	<div class="heading">
+		vivian truong is a high school student,<br> programmer, ux design enthusiast.
+		<p id="lato-1">Currently studying front-end Web Development and UX design.</p>
+		<a href="#work"><i class="fas fa-caret-down" id="arrow"></i></a>
+	</div>
+	<div class="darkgreen-bg" id="work">
+		<img src="picture-2.png" id="spoon-image"/>
+		<div>
+			<p id="project-date">MAJOR WORK • OCTOBER 2020 - SEPTEMBER 2021</p>
+			<p id="project-title">Self Stabilizing Spoon</p>
+			<p id="project-content">When designing this spoon, I utilised Arduino technologies to make my creation come alive as C++ was used in the Arduino IDE. Further, I utilised various mediums of technology to document and plan my design. These ranged from schematics to computer aided design software.</p>
 		</div>
-		<div class="border holographic-gradient" id="work">
-			<p>MAJOR WORK • OCTOBER 2020 - SEPTEMBER 2021</p>
-			<br>
-			<h1 class="mont">Self Stabilizing Spoon</h1>
-			<br>
-			<p class="width">When designing this spoon, I utilised Arduino technologies to make my creation come alive as C++ was used in the Arduino IDE. Further, I utilised various mediums of technology to document and plan my design. These ranged from schematics to computer aided design software.</p>
+	</div>
+	<div class="lightgreen-bg">
+		<div>
+			<p id="project-date-1">WORK EXPERIENCE • AUGUST 2019</p>
+			<p id="project-title-1">Kirby and the Church(es)</p>
+			<p id="project-content-1">Kirby and the Three Churches is a Unity game I created in 2019 as I wanted to learn and design a game based from CS and C# programming. I used AutoDeck Maya to create the Kirby model and Unity to program the game. Although the game's concept is bizzare, the game helped me to develop my programming and game designing skills.</p>
 		</div>
-		<div class="border holographic-gradient-semi">
-			<p>WORK EXPERIENCE • AUGUST 2019</p>
-			<br>
-			<h1 class="mont">Kirby and the Church(es)</h1>
-			<br>
-			<p class="width">Kirby and the Three Churches is a Unity game I created in 2019 as I wanted to learn and design a game based from CS and C# programming. I used AutoDeck Maya to create the Kirby model and Unity to program the game. Although the game's concept is bizzare, the game helped me to develop my programming and game designing skills.</p>
-		</div>
-	</body>
-	<footer>
-		<div class="flexbox-1">
-			<div>
-				<h1 class="lora">Vivian Truong.</h1><!--add linkedin, github, instagram-->
+		<img src="picture-3.png" id="game-image"/>
+	</div>
+</body>
+<footer class="brown-bg-1">
+	<div class="row-flexbox">
+		<div class="footer-flexbox">
+			<h1 id="lora">Vivian Truong.</h1>
+			<div class="brown-bg">
+			<a href="https://www.linkedin.com/in/vivian-truong-154700217/" target="_blank"><i class="fab fa-linkedin social-media"></i></a>
+			<a href="https://github.com/vivitruon" target="_blank"><i class="fab fa-github-square social-media"></i></a>
+			<a href="blog.html"><i class="fab fa-instagram-square social-media"></i></a>
+			<a href="https://twitter.com/vivitruon" target="_blank"><i class="fab fa-twitter-square social-media"></i></a>
+			<a href="https://codepen.io/vivitruon" target="_blank"><i class="fab fa-codepen social-media"></i></a>
 			</div>
-			<div>
-				<a href="https://www.linkedin.com/in/vivian-truong-154700217/" target="_blank"><i class="fab fa-linkedin social-media"></i></a>
-				<a href="https://github.com/vivitruon" target="_blank"><i class="fab fa-github-square social-media"></i></a>
-				<a href="blog.html"><i class="fab fa-instagram-square social-media"></i></a>
+		</div>
+		<div class="row-flexbox">
+			<div id="footer-1">
+				Let's Talk!
+				<a class="white-font" href="mailto:vivianchtruong@gmail.com">vivianchtruong@gmail.com</a>
+			</div>
+			<div id="footer-2">
+				More.
+				<a class="white-font" href="about.html">About</a>
+				<a class="white-font" href="#work">Work</a>
+				<a class="white-font" href="about.html">Resume</a>
 			</div>
 		</div>
-		<div id="footer-1">
-			Let's Talk!
-			<a class="white-font 2" href="mailto:vivianchtruong@gmail.com">vivianchtruong@gmail.com</a>
-		</div>
-		<div id="footer-2">
-			More.
-			<a class="white-font" href="about.html">About</a>
-			<a class="white-font" href="blog.html">Blog</a>
-			<a class="white-font" href="blog.html">Resume</a>
-		</div>
-		<div id="footer-3">
-			© 2021 Vivian Truong 
-		</div>
-	</footer>
+	</div>
+</footer>
 </html>
+<!-- 
+font-family: 'Lato', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Unica One', cursive;
+font-family: 'Zilla Slab', serif;
+	-->

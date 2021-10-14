@@ -300,7 +300,105 @@ html {
     transform: rotate(359deg);
   }
 }
-
+/*About*/
+#about-heading {
+	padding-top: 150px;
+	padding-left: 200px;
+	font-family: 'Zilla Slab', serif;
+	color: var(--darkpink);
+	font-size: 64px;
+	position: absolute;
+}
+#about-p1 {
+	padding-top: 300px;
+	padding-left: 200px;
+	width: 600px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 29px;
+	}
+#about-p2 {
+	padding-top: 510px;
+	padding-left: 200px;
+	width: 600px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 29px;
+}
+#question {
+	position: absolute;
+	width: 455px;
+	height: 84px;
+	left: 235px;
+	top: 560px;
+	font-family: Six Caps;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 64px;
+	line-height: 84px;
+	text-align: center;
+}
+#rectangle-1 {
+	position: absolute;
+	width: 524px;
+	height: 117px;
+	left: 200px;
+	top: 550px;
+	background: var(--lightpink);
+	border-radius: 50px;
+}
+#rectangle-2 {
+	position: absolute;
+	width: 524px;
+	height: 117px;
+	left: 250px;
+	top: 600px;
+	background: var(--sage);
+	border-radius: 50px;
+}
+#rectangle-3 {
+	position: absolute;
+	width: 524px;
+	height: 219px;
+	left: 196px;
+	top: 800px;
+	background: var(--sage);
+	border-radius: 50px;
+}
+#rectangle-4 {
+	position: absolute;
+	width: 524px;
+	height: 219px;
+	left: 250px;
+	top: 750px;
+	background: var(--lightpink);
+	border-radius: 50px;
+}
+#question-1 {
+	position: absolute;
+	width: 431px;
+	height: 180px;
+	left: 295px;
+	top: 770px;
+	font-family: Source Serif Pro;
+	font-size: 36px;
+	line-height: 45px;
+	text-align: center;
+}
+#about-image {
+	position: absolute;
+	width: 440px;
+	height: 540px;
+	left: 862px;
+	top: 410px;
+	right: 295px;
+	background: url(101845394_3229571050440425_7232624505833652224_n.jpg);
+	border-radius: 20px;
+}
 /*FOOTER*/
 #lora {
 	font-family: Lora;
@@ -325,6 +423,11 @@ html {
 	/*	text-align: center;*/
 }
 
+.about-brown-bg {
+	background-color: var(--brown);
+	margin-top: 50px;
+	/*	text-align: center;*/
+}
 .footer-flexbox {
 	display: flex;
 	flex-direction: column;
@@ -711,5 +814,104 @@ html {
 	font-weight: 500;
 	font-size: 50px;
 	text-align: center;
+	}
+		/*About*/
+	#about-heading {
+		padding-top: 650px;
+		padding-left: 70px;
+		font-family: 'Zilla Slab', serif;
+		color: var(--darkpink);
+		font-size: 64px;
+		position: absolute;
+	}
+	#about-p1 {
+		padding-top: 800px;
+		padding-left: 70px;
+		width: 600px;
+		font-family: Lato;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 24px;
+		line-height: 29px;
+		}
+	#about-p2 {
+		padding-top: 510px;
+		padding-left: 70px;
+		width: 600px;
+		font-family: Lato;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 24px;
+		line-height: 29px;
+	}
+	#question {
+		position: absolute;
+		width: 455px;
+		height: 84px;
+		left: 105px;
+		top: 1060px;
+		font-family: Six Caps;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 64px;
+		line-height: 84px;
+		text-align: center;
+	}
+	#rectangle-1 {
+		position: absolute;
+		width: 524px;
+		height: 117px;
+		left: 70px;
+		top: 1050px;
+		background: var(--lightpink);
+		border-radius: 50px;
+	}
+	#rectangle-2 {
+		position: absolute;
+		width: 524px;
+		height: 117px;
+		left: 160px;
+		top: 1100px;
+		background: var(--sage);
+		border-radius: 50px;
+	}
+	#rectangle-3 {
+		position: absolute;
+		width: 524px;
+		height: 219px;
+		left: 70px;
+		top: 1300px;
+		background: var(--sage);
+		border-radius: 50px;
+	}
+	#rectangle-4 {
+		position: absolute;
+		width: 524px;
+		height: 219px;
+		left: 160px;
+		top: 1250px;
+		background: var(--lightpink);
+		border-radius: 50px;
+	}
+	#question-1 {
+		position: absolute;
+		width: 431px;
+		height: 180px;
+		left: 205px;
+		top: 1270px;
+		font-family: Source Serif Pro;
+		font-size: 36px;
+		line-height: 45px;
+		text-align: center;
+	}
+	#about-image {
+		position: absolute;
+		width: 440px;
+		height: 540px;
+		left: 170px;
+		top: 250px;
+		right: 295px;
+		background: url(101845394_3229571050440425_7232624505833652224_n.jpg);
+		border-radius: 20px;
 	}
 }

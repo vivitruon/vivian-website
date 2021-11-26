@@ -392,9 +392,19 @@ html {
 #about-image {
 	position: absolute;
 	width: 440px;
-	height: 540px;
+	height: 565px;
 	left: 862px;
-	top: 400px;
+	top: 300px;
+	right: 295px;
+	background: url(101845394_3229571050440425_7232624505833652224_n.jpg);
+	border-radius: 20px;
+}
+#about-image-2 {
+	position: absolute;
+	width: 440px;
+	height: 370px;
+	left: 862px;
+	top: 940px;
 	right: 295px;
 	background: url(101845394_3229571050440425_7232624505833652224_n.jpg);
 	border-radius: 20px;
@@ -832,7 +842,7 @@ html {
 		font-style: normal;
 		font-weight: 500;
 		font-size: 24px;
-		line-height: 29px;
+		line-height: 39px;
 		}
 	#about-p2 {
 		padding-top: 510px;
@@ -842,7 +852,7 @@ html {
 		font-style: normal;
 		font-weight: 500;
 		font-size: 24px;
-		line-height: 29px;
+		line-height: 39px;
 	}
 	#question {
 		position: absolute;

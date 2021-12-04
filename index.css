@@ -509,6 +509,151 @@ html {
 	margin-left: 650px;
 	width: 15%;
 }
+@media screen and (max-width: 1920px) {
+		body {
+			margin-left: 50px;
+		}
+		.elipse-1 {
+		position: absolute;
+		width: 445px;
+		height: 430px;
+		left: 730px;
+		top: 155px;
+		border-radius: 50%;
+		background: #FFFFFF;
+		margin-top: 50px;
+	}
+	.elipse-1:hover {
+		position: absolute;
+		width: 445px;
+		height: 430px;
+		left: 730px;
+		top: 155px;
+		border-radius: 50%;
+		background-image: url(picture-1.png);
+		background-size: 450px;
+		margin-top: 50px;
+	}
+	.heading {
+	padding-top: 600px;
+	padding-left: 300px;
+	padding-right: 200px;
+	padding-bottom: 70px;
+	font-family: 'Zilla Slab', serif;
+	color: var(--darkpink);
+	font-size: 64px;
+	}
+		/*SPOON*/
+	#lato-1 {
+		position: absolute;
+		width: 1062px;
+		height: 53px;
+		font-family: Lato;
+		font-style: italic;
+		font-weight: 500;
+		font-size: 36px;
+		line-height: 50px;
+		margin-top: 15px;
+		color: var(--white);
+	}
+
+	#spoon-image {
+		width: 511px;
+		height: 638px;
+		margin-left: 350px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		border-radius: 10%;
+		background-color: var(--sage);
+	}
+
+	#game-image {
+		width: 511px;
+		height: 638px;
+		margin-left: 60px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+
+		border-radius: 10%;
+	}
+
+	#project-date {
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 24px;
+		line-height: 29px;
+		/*background-color: var(--sage);*/
+		margin-top: 150px;
+		margin-left: 70px;
+	}
+
+	#project-title {
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 36px;
+		line-height: 70px;
+		background-color: var(--sage);
+		margin-left: 70px;
+	}
+
+	#project-content {
+		font-family: Inter;
+		font-style: normal;
+		font-weight: 300px;
+		font-size: 24px;
+		line-height: 33px;
+		width: 630px;
+		margin-left: 70px;
+		margin-top: 7px;
+		background-color: var(--sage);
+	}
+	/*KIRBY*/
+	#project-date-1 {
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 24px;
+		line-height: 29px;
+		background-color: var(--lightgreen);
+		margin-top: 150px;
+		margin-left: 120px;
+	}
+
+	#project-title-1 {
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 36px;
+		line-height: 70px;
+		background-color: var(--lightgreen);
+		margin-left: 120px;
+	}
+
+	#project-content-1 {
+		font-family: Inter;
+		font-style: normal;
+		font-weight: 300px;
+		font-size: 24px;
+		line-height: 33px;
+		width: 630px;
+		margin-left: 120px;
+		margin-top: 7px;
+		background-color: var(--lightgreen);
+	}
+	.darkgreen-bg {
+		background-color: var(--sage);
+		display: flex;
+		flex-direction: row;
+	}
+
+	.lightgreen-bg {
+		background-color: var(--lightgreen);
+		display: flex;
+		flex-direction: row; 
+	}
+	}
 @media screen and (max-width: 768px) {
 	.nav-container {
 		position: relative;

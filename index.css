@@ -32,7 +32,7 @@ html {
 /*SECTION 1*/
 .heading {
 	padding-top: 600px;
-	padding-left: 200px;
+	padding-left: 390px;
 	padding-right: 200px;
 	padding-bottom: 70px;
 	font-family: 'Zilla Slab', serif;
@@ -44,7 +44,7 @@ html {
 	position: absolute;
 	width: 445px;
 	height: 430px;
-	left: 520px;
+	left: 720px;
 	top: 155px;
 	border-radius: 50%;
 	background: #FFFFFF;
@@ -55,7 +55,7 @@ html {
 	position: absolute;
 	width: 445px;
 	height: 430px;
-	left: 520px;
+	left: 720px;
 	top: 155px;
 	border-radius: 50%;
 	background-image: url(picture-1.png);
@@ -83,7 +83,6 @@ html {
 	margin-top: 15px;
 	color: var(--white);
 }
-
 #spoon-image {
 	width: 511px;
 	height: 638px;
@@ -121,7 +120,7 @@ html {
 	font-size: 36px;
 	line-height: 70px;
 	background-color: var(--sage);
-	margin-left: 70px;
+	margin-left: 100px;
 }
 
 #project-content {
@@ -509,7 +508,7 @@ html {
 	margin-left: 650px;
 	width: 15%;
 }
-@media screen and (max-width: 1920px) {
+/*@media screen and (max-width: 1920px) {
 		body {
 			margin-left: 50px;
 		}
@@ -543,7 +542,7 @@ html {
 	color: var(--darkpink);
 	font-size: 64px;
 	}
-		/*SPOON*/
+
 	#lato-1 {
 		position: absolute;
 		width: 1062px;
@@ -583,7 +582,7 @@ html {
 		font-weight: 500;
 		font-size: 24px;
 		line-height: 29px;
-		/*background-color: var(--sage);*/
+		background-color: var(--sage);
 		margin-top: 150px;
 		margin-left: 70px;
 	}
@@ -609,7 +608,8 @@ html {
 		margin-top: 7px;
 		background-color: var(--sage);
 	}
-	/*KIRBY*/
+
+
 	#project-date-1 {
 		font-family: Montserrat;
 		font-style: normal;
@@ -652,8 +652,8 @@ html {
 		background-color: var(--lightgreen);
 		display: flex;
 		flex-direction: row; 
-	}
-	}
+	}*/
+
 @media screen and (max-width: 768px) {
 	.nav-container {
 		position: relative;
